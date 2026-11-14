@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Disposed.Baldr" Version="2026.11.9.224249" />
+    <PackageReference Include="Disposed.Baldr" Version="2026.11.14.201019" />
     <PackageReference Include="Microsoft.Extensions.Hosting" Version="11.0.0" />
     <PackageReference Include="xunit.v3.mtp-v2" Version="4.0.3" />
   </ItemGroup>
