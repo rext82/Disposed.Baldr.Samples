@@ -1,0 +1,42 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="baldrTitle baldrDesc">
+  <title id="baldrTitle">Baldr logo</title>
+  <desc id="baldrDesc">A futuristic Baldr product logo with a shield and rune mark and wordmark.</desc>
+
+  <defs>
+    <linearGradient id="baldrShieldGrad" x1="56" y1="34" x2="264" y2="286" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8B5CF6"/>
+      <stop offset="1" stop-color="#22D3EE"/>
+    </linearGradient>
+    <linearGradient id="baldrInnerGrad" x1="90" y1="78" x2="220" y2="246" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#121A35"/>
+      <stop offset="1" stop-color="#0A1022"/>
+    </linearGradient>
+    <linearGradient id="baldrTextGrad" x1="316" y1="72" x2="980" y2="256" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F5F3FF"/>
+      <stop offset="1" stop-color="#B7D9FF"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="320" rx="24" fill="#080E1D"/>
+
+  <path d="M160 34L254 72V146C254 214.851 214.75 264.32 160 286C105.25 264.32 66 214.851 66 146V72L160 34Z" fill="url(#baldrShieldGrad)"/>
+  <path d="M160 70L224 95V145C224 193.432 197.157 233.876 160 251C122.843 233.876 96 193.432 96 145V95L160 70Z" fill="url(#baldrInnerGrad)"/>
+
+  <g>
+    <path d="M142 98L142 226" stroke="#BEE9FF" stroke-width="14" stroke-linecap="round"/>
+    <path d="M142 98L198 132L142 162" stroke="#BEE9FF" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M142 162L198 194L142 226" stroke="#BEE9FF" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M142 98L198 132L142 162M142 162L198 194L142 226" stroke="#22D3EE" stroke-opacity="0.25" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <g opacity="0.35">
+    <path d="M274 90L350 56" stroke="#8B5CF6" stroke-width="2"/>
+    <path d="M278 240L360 278" stroke="#22D3EE" stroke-width="2"/>
+    <circle cx="324" cy="166" r="3" fill="#8B5CF6"/>
+    <circle cx="346" cy="154" r="2" fill="#22D3EE"/>
+    <circle cx="358" cy="176" r="2" fill="#22D3EE"/>
+  </g>
+
+  <text x="318" y="206" fill="url(#baldrTextGrad)" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="118" font-weight="800" letter-spacing="2">BALDR</text>
+  <text x="322" y="244" fill="#8CA4D8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="24" font-weight="600" letter-spacing="4">MESSAGE BUS</text>
+</svg>

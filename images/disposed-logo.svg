@@ -1,0 +1,38 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="disposedTitle disposedDesc">
+  <title id="disposedTitle">Disposed logo</title>
+  <desc id="disposedDesc">A modern software company logo for Disposed with a geometric D mark and wordmark.</desc>
+
+  <defs>
+    <linearGradient id="disposedGrad" x1="40" y1="24" x2="280" y2="280" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00E5FF"/>
+      <stop offset="1" stop-color="#7C4DFF"/>
+    </linearGradient>
+    <linearGradient id="disposedTextGrad" x1="320" y1="80" x2="1120" y2="260" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#EAF6FF"/>
+      <stop offset="1" stop-color="#B8C9FF"/>
+    </linearGradient>
+    <filter id="softGlow" x="0" y="0" width="360" height="320" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="320" rx="24" fill="#0B1020"/>
+
+  <g filter="url(#softGlow)">
+    <path d="M56 52H154C214.751 52 264 101.249 264 162C264 222.751 214.751 272 154 272H56V52Z" fill="url(#disposedGrad)"/>
+    <path d="M100 98H154C189.346 98 218 126.654 218 162C218 197.346 189.346 226 154 226H100V98Z" fill="#0B1020"/>
+    <rect x="128" y="122" width="22" height="80" rx="11" fill="url(#disposedGrad)"/>
+  </g>
+
+  <g opacity="0.25">
+    <path d="M280 70L340 24" stroke="#7C4DFF" stroke-width="2"/>
+    <path d="M282 256L352 300" stroke="#00E5FF" stroke-width="2"/>
+    <circle cx="328" cy="160" r="3" fill="#B388FF"/>
+    <circle cx="350" cy="150" r="2" fill="#00E5FF"/>
+    <circle cx="362" cy="172" r="2" fill="#00E5FF"/>
+  </g>
+
+  <text x="320" y="206" fill="url(#disposedTextGrad)" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="118" font-weight="700" letter-spacing="1.5">Disposed</text>
+  <text x="324" y="244" fill="#89A0D6" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="24" font-weight="500" letter-spacing="5">SOFTWARE</text>
+</svg>
